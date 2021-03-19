@@ -1,0 +1,3 @@
+Este es el archivo A.
+
+El usuario B edito esto :)
