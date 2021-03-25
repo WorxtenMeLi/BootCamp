@@ -5,7 +5,6 @@ public class InvitadoEstandar extends Invitado{
 
     @Override
     public void comer() {
-        System.out.println("Estoy comiendo");
-
+        System.out.println("Estoy comiendo "+this.nombre+".");
     }
 }
