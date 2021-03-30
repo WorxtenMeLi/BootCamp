@@ -16,29 +16,4 @@ public class CasaDto {
         this.direccion = direccion;
         this.habitaciones = habitaciones;
     }
-
-    public float getArea(){
-        area=0;
-        for (HabitacionDto habitacion: habitaciones){
-            area+=habitacion.getArea();
-        }
-        return area;
-    }
-    public float getValor(){
-        getArea();
-        valor=0;
-        valor = area*800;
-        return valor;
-    }
-    public HabitacionDto getCasaMasGrande(){
-        float areaMayor=0;
-        HabitacionDto habGrande=null;
-        for (HabitacionDto habitacion: habitaciones){
-            if(habitacion.getArea()>areaMayor){
-                areaMayor=habitacion.getArea();
-                habGrande=habitacion;
-            }
-        }
-        return habGrande;
-    }
 }

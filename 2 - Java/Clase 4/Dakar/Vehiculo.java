@@ -1,5 +1,4 @@
 package repaso2;
-
 public abstract class Vehiculo {
     private Double velocidad;
     private Double aceleracion;
@@ -7,8 +6,6 @@ public abstract class Vehiculo {
     private String patente;
     private Double peso;
     private Integer ruedas;
-
-
     protected Vehiculo(Double velocidad, Double aceleracion, Double anguloDeGiro, String patente, Double peso, Integer ruedas) {
         this.velocidad = velocidad;
         this.aceleracion = aceleracion;

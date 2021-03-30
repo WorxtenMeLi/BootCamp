@@ -40,8 +40,6 @@ public class IngredientesRepositoryImpl implements IngredienteRepository{
         }catch (Exception e){
             e.printStackTrace();
         }
-
         return priceDTOS;
-
     }
 }
