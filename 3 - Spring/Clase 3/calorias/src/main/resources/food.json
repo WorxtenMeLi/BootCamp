@@ -1,0 +1,1226 @@
+[
+  {
+    "nombre": "Aceitunas negras",
+    "caloriaXGramo": 349
+  },
+  {
+    "nombre": "Aceitunas verdes",
+    "caloriaXGramo": 132
+  },
+  {
+    "nombre": "Acelgas",
+    "caloriaXGramo": 33
+  },
+  {
+    "nombre": "Ajos",
+    "caloriaXGramo": 169
+  },
+  {
+    "nombre": "Alcachofas",
+    "caloriaXGramo": 64
+  },
+  {
+    "nombre": "Apio",
+    "caloriaXGramo": 20
+  },
+  {
+    "nombre": "Berenjena",
+    "caloriaXGramo": 29
+  },
+  {
+    "nombre": "Berros",
+    "caloriaXGramo": 21
+  },
+  {
+    "nombre": "Brócoli",
+    "caloriaXGramo": 31
+  },
+  {
+    "nombre": "Calabacín",
+    "caloriaXGramo": 31
+  },
+  {
+    "nombre": "Calabaza",
+    "caloriaXGramo": 24
+  },
+  {
+    "nombre": "Cebolla",
+    "caloriaXGramo": 47
+  },
+  {
+    "nombre": "Cebolla tierna",
+    "caloriaXGramo": 39
+  },
+  {
+    "nombre": "Champiñón y otras setas",
+    "caloriaXGramo": 28
+  },
+  {
+    "nombre": "Col",
+    "caloriaXGramo": 28
+  },
+  {
+    "nombre": "Col de Bruselas",
+    "caloriaXGramo": 54
+  },
+  {
+    "nombre": "Coliflor",
+    "caloriaXGramo": 30
+  },
+  {
+    "nombre": "Endibia",
+    "caloriaXGramo": 22
+  },
+  {
+    "nombre": "Escarola",
+    "caloriaXGramo": 37
+  },
+  {
+    "nombre": "Espárragos",
+    "caloriaXGramo": 26
+  },
+  {
+    "nombre": "Espárragos en lata",
+    "caloriaXGramo": 24
+  },
+  {
+    "nombre": "Espinaca",
+    "caloriaXGramo": 32
+  },
+  {
+    "nombre": "Espinacas congeladas",
+    "caloriaXGramo": 25
+  },
+  {
+    "nombre": "Habas tiernas",
+    "caloriaXGramo": 64
+  },
+  {
+    "nombre": "Hinojo",
+    "caloriaXGramo": 16
+  },
+  {
+    "nombre": "Lechuga",
+    "caloriaXGramo": 18
+  },
+  {
+    "nombre": "Nabos",
+    "caloriaXGramo": 29
+  },
+  {
+    "nombre": "Papas cocidas",
+    "caloriaXGramo": 86
+  },
+  {
+    "nombre": "Pepino",
+    "caloriaXGramo": 12
+  },
+  {
+    "nombre": "Perejil",
+    "caloriaXGramo": 55
+  },
+  {
+    "nombre": "Pimiento",
+    "caloriaXGramo": 22
+  },
+  {
+    "nombre": "Porotos verdes",
+    "caloriaXGramo": 21
+  },
+  {
+    "nombre": "Puerros",
+    "caloriaXGramo": 42
+  },
+  {
+    "nombre": "Rábanos",
+    "caloriaXGramo": 20
+  },
+  {
+    "nombre": "Remolacha",
+    "caloriaXGramo": 40
+  },
+  {
+    "nombre": "Repollo",
+    "caloriaXGramo": 19
+  },
+  {
+    "nombre": "Rúcula",
+    "caloriaXGramo": 37
+  },
+  {
+    "nombre": "Soja, Brotes de",
+    "caloriaXGramo": 50
+  },
+  {
+    "nombre": "Tomate triturado en conserva",
+    "caloriaXGramo": 39
+  },
+  {
+    "nombre": "Tomates",
+    "caloriaXGramo": 22
+  },
+  {
+    "nombre": "Trufa",
+    "caloriaXGramo": 92
+  },
+  {
+    "nombre": "Zanahoria",
+    "caloriaXGramo": 42
+  },
+  {
+    "nombre": "Zumo de tomate",
+    "caloriaXGramo": 21
+  },
+  {
+    "nombre": "Arándanos",
+    "caloriaXGramo": 41
+  },
+  {
+    "nombre": "Caqui",
+    "caloriaXGramo": 64
+  },
+  {
+    "nombre": "Cereza",
+    "caloriaXGramo": 47
+  },
+  {
+    "nombre": "Chirimoya",
+    "caloriaXGramo": 78
+  },
+  {
+    "nombre": "Ciruela",
+    "caloriaXGramo": 44
+  },
+  {
+    "nombre": "Ciruela seca",
+    "caloriaXGramo": 290
+  },
+  {
+    "nombre": "Coco",
+    "caloriaXGramo": 646
+  },
+  {
+    "nombre": "Dátil",
+    "caloriaXGramo": 279
+  },
+  {
+    "nombre": "Dátil seco",
+    "caloriaXGramo": 306
+  },
+  {
+    "nombre": "Frambuesa",
+    "caloriaXGramo": 40
+  },
+  {
+    "nombre": "Fresas",
+    "caloriaXGramo": 36
+  },
+  {
+    "nombre": "Granada",
+    "caloriaXGramo": 65
+  },
+  {
+    "nombre": "Grosella",
+    "caloriaXGramo": 37
+  },
+  {
+    "nombre": "Higos",
+    "caloriaXGramo": 80
+  },
+  {
+    "nombre": "Higos secos",
+    "caloriaXGramo": 275
+  },
+  {
+    "nombre": "Kiwi",
+    "caloriaXGramo": 51
+  },
+  {
+    "nombre": "Limón",
+    "caloriaXGramo": 39
+  },
+  {
+    "nombre": "Mandarina",
+    "caloriaXGramo": 40
+  },
+  {
+    "nombre": "Mango",
+    "caloriaXGramo": 57
+  },
+  {
+    "nombre": "Manzana",
+    "caloriaXGramo": 52
+  },
+  {
+    "nombre": "Melón",
+    "caloriaXGramo": 31
+  },
+  {
+    "nombre": "Mora",
+    "caloriaXGramo": 37
+  },
+  {
+    "nombre": "Naranja",
+    "caloriaXGramo": 44
+  },
+  {
+    "nombre": "Nectarina",
+    "caloriaXGramo": 64
+  },
+  {
+    "nombre": "Nísperos",
+    "caloriaXGramo": 97
+  },
+  {
+    "nombre": "Papaya",
+    "caloriaXGramo": 45
+  },
+  {
+    "nombre": "Pera",
+    "caloriaXGramo": 61
+  },
+  {
+    "nombre": "Piña",
+    "caloriaXGramo": 51
+  },
+  {
+    "nombre": "Piña en almíbar",
+    "caloriaXGramo": 84
+  },
+  {
+    "nombre": "Plátano",
+    "caloriaXGramo": 90
+  },
+  {
+    "nombre": "Pomelo",
+    "caloriaXGramo": 30
+  },
+  {
+    "nombre": "Sandía",
+    "caloriaXGramo": 30
+  },
+  {
+    "nombre": "Uva",
+    "caloriaXGramo": 81
+  },
+  {
+    "nombre": "Uva pasa",
+    "caloriaXGramo": 324
+  },
+  {
+    "nombre": "Zumo de fruta",
+    "caloriaXGramo": 45
+  },
+  {
+    "nombre": "Zumo de Naranja",
+    "caloriaXGramo": 42
+  },
+  {
+    "nombre": "Almendras",
+    "caloriaXGramo": 620
+  },
+  {
+    "nombre": "Avellanas",
+    "caloriaXGramo": 675
+  },
+  {
+    "nombre": "Castañas",
+    "caloriaXGramo": 199
+  },
+  {
+    "nombre": "Maní",
+    "caloriaXGramo": 560
+  },
+  {
+    "nombre": "Nueces",
+    "caloriaXGramo": 660
+  },
+  {
+    "nombre": "Piñones",
+    "caloriaXGramo": 660
+  },
+  {
+    "nombre": "Pistacho",
+    "caloriaXGramo": 581
+  },
+  {
+    "nombre": "Cuajada",
+    "caloriaXGramo": 92
+  },
+  {
+    "nombre": "Flan de huevo",
+    "caloriaXGramo": 126
+  },
+  {
+    "nombre": "Flan de vainilla",
+    "caloriaXGramo": 102
+  },
+  {
+    "nombre": "Helados lácteos",
+    "caloriaXGramo": 167
+  },
+  {
+    "nombre": "Leche condensada c/azúcar",
+    "caloriaXGramo": 350
+  },
+  {
+    "nombre": "Leche condensada s/azúcar",
+    "caloriaXGramo": 160
+  },
+  {
+    "nombre": "Leche de cabra",
+    "caloriaXGramo": 72
+  },
+  {
+    "nombre": "Leche de oveja",
+    "caloriaXGramo": 96
+  },
+  {
+    "nombre": "Leche descremada",
+    "caloriaXGramo": 36
+  },
+  {
+    "nombre": "Leche en polvo descremada",
+    "caloriaXGramo": 373
+  },
+  {
+    "nombre": "Leche en polvo entera",
+    "caloriaXGramo": 500
+  },
+  {
+    "nombre": "Leche entera",
+    "caloriaXGramo": 68
+  },
+  {
+    "nombre": "Leche semi descremada",
+    "caloriaXGramo": 49
+  },
+  {
+    "nombre": "Mousse",
+    "caloriaXGramo": 177
+  },
+  {
+    "nombre": "Nata o crema de leche",
+    "caloriaXGramo": 298
+  },
+  {
+    "nombre": "Queso blanco desnatado",
+    "caloriaXGramo": 70
+  },
+  {
+    "nombre": "Queso Brie",
+    "caloriaXGramo": 263
+  },
+  {
+    "nombre": "Queso cammembert",
+    "caloriaXGramo": 312
+  },
+  {
+    "nombre": "Queso cheddar",
+    "caloriaXGramo": 381
+  },
+  {
+    "nombre": "Queso crema",
+    "caloriaXGramo": 245
+  },
+  {
+    "nombre": "Queso de bola",
+    "caloriaXGramo": 349
+  },
+  {
+    "nombre": "Queso de Burgos",
+    "caloriaXGramo": 174
+  },
+  {
+    "nombre": "Queso de oveja",
+    "caloriaXGramo": 245
+  },
+  {
+    "nombre": "Queso edam",
+    "caloriaXGramo": 306
+  },
+  {
+    "nombre": "Queso emmental",
+    "caloriaXGramo": 415
+  },
+  {
+    "nombre": "Queso fundido untable",
+    "caloriaXGramo": 285
+  },
+  {
+    "nombre": "Queso gruyere",
+    "caloriaXGramo": 391
+  },
+  {
+    "nombre": "Queso manchego",
+    "caloriaXGramo": 376
+  },
+  {
+    "nombre": "Queso mozzarella",
+    "caloriaXGramo": 245
+  },
+  {
+    "nombre": "Queso parmesano",
+    "caloriaXGramo": 393
+  },
+  {
+    "nombre": "Queso ricota",
+    "caloriaXGramo": 400
+  },
+  {
+    "nombre": "Queso roquefort",
+    "caloriaXGramo": 405
+  },
+  {
+    "nombre": "Requesón",
+    "caloriaXGramo": 96
+  },
+  {
+    "nombre": "Yogur desnatado",
+    "caloriaXGramo": 45
+  },
+  {
+    "nombre": "Yogur desnatado con frutas",
+    "caloriaXGramo": 82
+  },
+  {
+    "nombre": "Yogur enriquecido con nata",
+    "caloriaXGramo": 65
+  },
+  {
+    "nombre": "Yogur natural",
+    "caloriaXGramo": 62
+  },
+  {
+    "nombre": "Yogur natural con fruta",
+    "caloriaXGramo": 100
+  },
+  {
+    "nombre": "Bacon (Panceta ahumada)",
+    "caloriaXGramo": 665
+  },
+  {
+    "nombre": "Butifarra cocida",
+    "caloriaXGramo": 390
+  },
+  {
+    "nombre": "Butifarra, salchicha fresca",
+    "caloriaXGramo": 326
+  },
+  {
+    "nombre": "Cabrito",
+    "caloriaXGramo": 127
+  },
+  {
+    "nombre": "Cerdo, chuleta",
+    "caloriaXGramo": 330
+  },
+  {
+    "nombre": "Cerdo, hígado",
+    "caloriaXGramo": 153
+  },
+  {
+    "nombre": "Cerdo, lomo",
+    "caloriaXGramo": 208
+  },
+  {
+    "nombre": "Chicharrón",
+    "caloriaXGramo": 601
+  },
+  {
+    "nombre": "Chorizo",
+    "caloriaXGramo": 468
+  },
+  {
+    "nombre": "Ciervo",
+    "caloriaXGramo": 120
+  },
+  {
+    "nombre": "Codorniz y perdiz",
+    "caloriaXGramo": 114
+  },
+  {
+    "nombre": "Conejo, liebre",
+    "caloriaXGramo": 162
+  },
+  {
+    "nombre": "Cordero lechón",
+    "caloriaXGramo": 105
+  },
+  {
+    "nombre": "Cordero pierna",
+    "caloriaXGramo": 98
+  },
+  {
+    "nombre": "Cordero, costillas",
+    "caloriaXGramo": 215
+  },
+  {
+    "nombre": "Cordero, hígado",
+    "caloriaXGramo": 132
+  },
+  {
+    "nombre": "Faisán",
+    "caloriaXGramo": 144
+  },
+  {
+    "nombre": "Foie-Gras",
+    "caloriaXGramo": 518
+  },
+  {
+    "nombre": "Gallina",
+    "caloriaXGramo": 369
+  },
+  {
+    "nombre": "Hamburguesa",
+    "caloriaXGramo": 230
+  },
+  {
+    "nombre": "Jabalí",
+    "caloriaXGramo": 107
+  },
+  {
+    "nombre": "Jamón",
+    "caloriaXGramo": 380
+  },
+  {
+    "nombre": "Jamón cocido",
+    "caloriaXGramo": 126
+  },
+  {
+    "nombre": "Jamón crudo",
+    "caloriaXGramo": 296
+  },
+  {
+    "nombre": "Jamón York",
+    "caloriaXGramo": 289
+  },
+  {
+    "nombre": "Lengua de vaca",
+    "caloriaXGramo": 191
+  },
+  {
+    "nombre": "Lomo embuchado",
+    "caloriaXGramo": 380
+  },
+  {
+    "nombre": "Mortadela",
+    "caloriaXGramo": 265
+  },
+  {
+    "nombre": "Pato",
+    "caloriaXGramo": 200
+  },
+  {
+    "nombre": "Pavo, Muslo",
+    "caloriaXGramo": 186
+  },
+  {
+    "nombre": "Pavo, Pechuga",
+    "caloriaXGramo": 134
+  },
+  {
+    "nombre": "Perdiz",
+    "caloriaXGramo": 120
+  },
+  {
+    "nombre": "Pies de cerdo",
+    "caloriaXGramo": 290
+  },
+  {
+    "nombre": "Pollo, Hígado",
+    "caloriaXGramo": 129
+  },
+  {
+    "nombre": "Pollo, Muslo",
+    "caloriaXGramo": 186
+  },
+  {
+    "nombre": "Pollo",
+    "caloriaXGramo": 134
+  },
+  {
+    "nombre": "Salami",
+    "caloriaXGramo": 325
+  },
+  {
+    "nombre": "Salchicha Frankfurt",
+    "caloriaXGramo": 315
+  },
+  {
+    "nombre": "Salchichón",
+    "caloriaXGramo": 294
+  },
+  {
+    "nombre": "Ternera",
+    "caloriaXGramo": 181
+  },
+  {
+    "nombre": "Ternera, chuleta",
+    "caloriaXGramo": 168
+  },
+  {
+    "nombre": "Ternera, hígado",
+    "caloriaXGramo": 140
+  },
+  {
+    "nombre": "Ternera, lengua",
+    "caloriaXGramo": 207
+  },
+  {
+    "nombre": "Ternera, riñón",
+    "caloriaXGramo": 86
+  },
+  {
+    "nombre": "Ternera, sesos",
+    "caloriaXGramo": 125
+  },
+  {
+    "nombre": "Ternera, solomillo",
+    "caloriaXGramo": 290
+  },
+  {
+    "nombre": "Tira de asado",
+    "caloriaXGramo": 401
+  },
+  {
+    "nombre": "Tripas",
+    "caloriaXGramo": 100
+  },
+  {
+    "nombre": "Vacuno, Hígado",
+    "caloriaXGramo": 129
+  },
+  {
+    "nombre": "Almejas",
+    "caloriaXGramo": 50
+  },
+  {
+    "nombre": "Anchoas",
+    "caloriaXGramo": 175
+  },
+  {
+    "nombre": "Anguilas",
+    "caloriaXGramo": 200
+  },
+  {
+    "nombre": "Atún en lata con aceite vegetal",
+    "caloriaXGramo": 280
+  },
+  {
+    "nombre": "Atún en lata con agua",
+    "caloriaXGramo": 127
+  },
+  {
+    "nombre": "Atún fresco",
+    "caloriaXGramo": 225
+  },
+  {
+    "nombre": "Bacalao fresco",
+    "caloriaXGramo": 74
+  },
+  {
+    "nombre": "Bacalao seco",
+    "caloriaXGramo": 322
+  },
+  {
+    "nombre": "Besugo",
+    "caloriaXGramo": 118
+  },
+  {
+    "nombre": "Caballa",
+    "caloriaXGramo": 153
+  },
+  {
+    "nombre": "Calamar",
+    "caloriaXGramo": 82
+  },
+  {
+    "nombre": "Cangrejo",
+    "caloriaXGramo": 85
+  },
+  {
+    "nombre": "Caviar",
+    "caloriaXGramo": 233
+  },
+  {
+    "nombre": "Congrio",
+    "caloriaXGramo": 112
+  },
+  {
+    "nombre": "Dorada",
+    "caloriaXGramo": 80
+  },
+  {
+    "nombre": "Gallo",
+    "caloriaXGramo": 73
+  },
+  {
+    "nombre": "Gambas",
+    "caloriaXGramo": 96
+  },
+  {
+    "nombre": "Langosta",
+    "caloriaXGramo": 67
+  },
+  {
+    "nombre": "Langostino",
+    "caloriaXGramo": 96
+  },
+  {
+    "nombre": "Lenguado",
+    "caloriaXGramo": 73
+  },
+  {
+    "nombre": "Lubina",
+    "caloriaXGramo": 118
+  },
+  {
+    "nombre": "Lucio",
+    "caloriaXGramo": 81
+  },
+  {
+    "nombre": "Mejillón",
+    "caloriaXGramo": 74
+  },
+  {
+    "nombre": "Merluza",
+    "caloriaXGramo": 86
+  },
+  {
+    "nombre": "Mero",
+    "caloriaXGramo": 118
+  },
+  {
+    "nombre": "Ostras",
+    "caloriaXGramo": 80
+  },
+  {
+    "nombre": "Pejerrey",
+    "caloriaXGramo": 87
+  },
+  {
+    "nombre": "Pez espada",
+    "caloriaXGramo": 109
+  },
+  {
+    "nombre": "Pulpo",
+    "caloriaXGramo": 57
+  },
+  {
+    "nombre": "Rodaballo",
+    "caloriaXGramo": 81
+  },
+  {
+    "nombre": "Salmón",
+    "caloriaXGramo": 172
+  },
+  {
+    "nombre": "Salmón ahumado",
+    "caloriaXGramo": 154
+  },
+  {
+    "nombre": "Salmonete",
+    "caloriaXGramo": 97
+  },
+  {
+    "nombre": "Sardina en lata con aceite vegetal",
+    "caloriaXGramo": 192
+  },
+  {
+    "nombre": "Sardinas",
+    "caloriaXGramo": 151
+  },
+  {
+    "nombre": "Trucha",
+    "caloriaXGramo": 94
+  },
+  {
+    "nombre": "Azúcar",
+    "caloriaXGramo": 380
+  },
+  {
+    "nombre": "Cacao en polvo con azúcar instantáneo",
+    "caloriaXGramo": 366
+  },
+  {
+    "nombre": "Caramelos",
+    "caloriaXGramo": 378
+  },
+  {
+    "nombre": "Chocolate con leche",
+    "caloriaXGramo": 550
+  },
+  {
+    "nombre": "Chocolate sin leche",
+    "caloriaXGramo": 530
+  },
+  {
+    "nombre": "Crema chocolate con avellanas",
+    "caloriaXGramo": 549
+  },
+  {
+    "nombre": "Dulce de membrillo",
+    "caloriaXGramo": 215
+  },
+  {
+    "nombre": "Helados de agua",
+    "caloriaXGramo": 139
+  },
+  {
+    "nombre": "Mermeladas con azúcar",
+    "caloriaXGramo": 280
+  },
+  {
+    "nombre": "Mermeladas sin azúcar",
+    "caloriaXGramo": 145
+  },
+  {
+    "nombre": "Miel",
+    "caloriaXGramo": 300
+  },
+  {
+    "nombre": "Arroz blanco",
+    "caloriaXGramo": 354
+  },
+  {
+    "nombre": "Arroz integral",
+    "caloriaXGramo": 350
+  },
+  {
+    "nombre": "Avena",
+    "caloriaXGramo": 367
+  },
+  {
+    "nombre": "Cebada",
+    "caloriaXGramo": 373
+  },
+  {
+    "nombre": "Centeno",
+    "caloriaXGramo": 350
+  },
+  {
+    "nombre": "Cereales con chocolate",
+    "caloriaXGramo": 358
+  },
+  {
+    "nombre": "Cereales desayuno, con miel",
+    "caloriaXGramo": 386
+  },
+  {
+    "nombre": "Copos de maíz",
+    "caloriaXGramo": 350
+  },
+  {
+    "nombre": "Harina de maíz",
+    "caloriaXGramo": 349
+  },
+  {
+    "nombre": "Harina de trigo integral",
+    "caloriaXGramo": 340
+  },
+  {
+    "nombre": "Harina de trigo refinada",
+    "caloriaXGramo": 353
+  },
+  {
+    "nombre": "Pan de centeno",
+    "caloriaXGramo": 241
+  },
+  {
+    "nombre": "Pan de trigo blanco",
+    "caloriaXGramo": 255
+  },
+  {
+    "nombre": "Pan de trigo integral",
+    "caloriaXGramo": 239
+  },
+  {
+    "nombre": "Pan de trigo molde blanco",
+    "caloriaXGramo": 233
+  },
+  {
+    "nombre": "Pan de trigo molde integral",
+    "caloriaXGramo": 216
+  },
+  {
+    "nombre": "Pasta al huevo",
+    "caloriaXGramo": 368
+  },
+  {
+    "nombre": "Pasta de sémola",
+    "caloriaXGramo": 361
+  },
+  {
+    "nombre": "Polenta",
+    "caloriaXGramo": 358
+  },
+  {
+    "nombre": "Sémola de trigo",
+    "caloriaXGramo": 368
+  },
+  {
+    "nombre": "Yuca",
+    "caloriaXGramo": 338
+  },
+  {
+    "nombre": "Garbanzos",
+    "caloriaXGramo": 361
+  },
+  {
+    "nombre": "Judías",
+    "caloriaXGramo": 343
+  },
+  {
+    "nombre": "Lentejas",
+    "caloriaXGramo": 336
+  },
+  {
+    "nombre": "Clara",
+    "caloriaXGramo": 48
+  },
+  {
+    "nombre": "Huevo duro",
+    "caloriaXGramo": 147
+  },
+  {
+    "nombre": "Huevo entero",
+    "caloriaXGramo": 162
+  },
+  {
+    "nombre": "Yema",
+    "caloriaXGramo": 368
+  },
+  {
+    "nombre": "Bizcocho",
+    "caloriaXGramo": 456
+  },
+  {
+    "nombre": "Croissant chocolate",
+    "caloriaXGramo": 469
+  },
+  {
+    "nombre": "Croissant, donut",
+    "caloriaXGramo": 456
+  },
+  {
+    "nombre": "Galletas de chocolate",
+    "caloriaXGramo": 524
+  },
+  {
+    "nombre": "Galletas de mantequilla tipo “Danesas”",
+    "caloriaXGramo": 397
+  },
+  {
+    "nombre": "Galletas saladas",
+    "caloriaXGramo": 464
+  },
+  {
+    "nombre": "Magdalenas",
+    "caloriaXGramo": 469
+  },
+  {
+    "nombre": "Pasta de hojaldre cocida",
+    "caloriaXGramo": 565
+  },
+  {
+    "nombre": "Pastel de manzana",
+    "caloriaXGramo": 311
+  },
+  {
+    "nombre": "Pastel de manzana, masa hojaldre",
+    "caloriaXGramo": 456
+  },
+  {
+    "nombre": "Pastel de queso",
+    "caloriaXGramo": 414
+  },
+  {
+    "nombre": "Agua ardiente",
+    "caloriaXGramo": 280
+  },
+  {
+    "nombre": "Agua tónica",
+    "caloriaXGramo": 34
+  },
+  {
+    "nombre": "Anís",
+    "caloriaXGramo": 312
+  },
+  {
+    "nombre": "Batido lácteo de cacao",
+    "caloriaXGramo": 100
+  },
+  {
+    "nombre": "Cacao en polvo sin azúcar a la taza",
+    "caloriaXGramo": 439
+  },
+  {
+    "nombre": "Café",
+    "caloriaXGramo": 1
+  },
+  {
+    "nombre": "Cerveza negra",
+    "caloriaXGramo": 37
+  },
+  {
+    "nombre": "Cerveza rubia",
+    "caloriaXGramo": 45
+  },
+  {
+    "nombre": "Champaña demi-sec",
+    "caloriaXGramo": 90
+  },
+  {
+    "nombre": "Champaña dulce",
+    "caloriaXGramo": 118
+  },
+  {
+    "nombre": "Champaña seca",
+    "caloriaXGramo": 85
+  },
+  {
+    "nombre": "Coñac, brandy",
+    "caloriaXGramo": 243
+  },
+  {
+    "nombre": "Crema de cacao",
+    "caloriaXGramo": 260
+  },
+  {
+    "nombre": "Daiquiri",
+    "caloriaXGramo": 122
+  },
+  {
+    "nombre": "Gin & Tónica",
+    "caloriaXGramo": 76
+  },
+  {
+    "nombre": "Ginebra",
+    "caloriaXGramo": 244
+  },
+  {
+    "nombre": "Leche de almendras",
+    "caloriaXGramo": 335
+  },
+  {
+    "nombre": "Licor de caña",
+    "caloriaXGramo": 273
+  },
+  {
+    "nombre": "Piña colada",
+    "caloriaXGramo": 194
+  },
+  {
+    "nombre": "Pisco",
+    "caloriaXGramo": 210
+  },
+  {
+    "nombre": "Refrescos carbonatados",
+    "caloriaXGramo": 48
+  },
+  {
+    "nombre": "Ron",
+    "caloriaXGramo": 244
+  },
+  {
+    "nombre": "Sidra dulce",
+    "caloriaXGramo": 33
+  },
+  {
+    "nombre": "Sidra seca",
+    "caloriaXGramo": 35
+  },
+  {
+    "nombre": "Té",
+    "caloriaXGramo": 1
+  },
+  {
+    "nombre": "Vermouth amargo",
+    "caloriaXGramo": 112
+  },
+  {
+    "nombre": "Vermouth dulce",
+    "caloriaXGramo": 160
+  },
+  {
+    "nombre": "Vino de mesa",
+    "caloriaXGramo": 70
+  },
+  {
+    "nombre": "Vino dulce, jerez",
+    "caloriaXGramo": 160
+  },
+  {
+    "nombre": "Vino oporto",
+    "caloriaXGramo": 160
+  },
+  {
+    "nombre": "Vodka",
+    "caloriaXGramo": 315
+  },
+  {
+    "nombre": "Whisky",
+    "caloriaXGramo": 244
+  },
+  {
+    "nombre": "Aceite de girasol",
+    "caloriaXGramo": 900
+  },
+  {
+    "nombre": "Aceite de oliva",
+    "caloriaXGramo": 900
+  },
+  {
+    "nombre": "Manteca",
+    "caloriaXGramo": 670
+  },
+  {
+    "nombre": "Mantequilla",
+    "caloriaXGramo": 752
+  },
+  {
+    "nombre": "Margarina vegetal",
+    "caloriaXGramo": 752
+  },
+  {
+    "nombre": "Bechamel",
+    "caloriaXGramo": 115
+  },
+  {
+    "nombre": "Caldos concentrados",
+    "caloriaXGramo": 259
+  },
+  {
+    "nombre": "Ketchup",
+    "caloriaXGramo": 98
+  },
+  {
+    "nombre": "Mayonesa",
+    "caloriaXGramo": 718
+  },
+  {
+    "nombre": "Mayonesa light",
+    "caloriaXGramo": 374
+  },
+  {
+    "nombre": "Mostaza",
+    "caloriaXGramo": 15
+  },
+  {
+    "nombre": "Salsa de soja",
+    "caloriaXGramo": 61
+  },
+  {
+    "nombre": "Salsa de tomate en conserva",
+    "caloriaXGramo": 86
+  },
+  {
+    "nombre": "Sofrito",
+    "caloriaXGramo": 116
+  },
+  {
+    "nombre": "Vinagres",
+    "caloriaXGramo": 8
+  }
+]
