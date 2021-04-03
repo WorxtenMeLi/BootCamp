@@ -3,8 +3,10 @@ package com.meli.linktracker.repositories;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.meli.linktracker.dtos.BibliotecaLinksDTO;
 import com.meli.linktracker.dtos.LinkDTO;
+import com.meli.linktracker.exceptions.LinkInvalid;
 import com.meli.linktracker.exceptions.LinkNotCreated;
 import com.meli.linktracker.exceptions.LinkNotFound;
+import com.meli.linktracker.exceptions.LinkUnAuthorized;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.ResourceUtils;
 import com.fasterxml.jackson.core.type.*;
@@ -16,6 +18,7 @@ import java.util.Optional;
 public class LinkRepositoryImpl implements ILinkRepository{
     BibliotecaLinksDTO biblioteca=null;
     List<LinkDTO> links=null;
+    LinkDTO link = null;
     public LinkDTO encontrarLinkPorUrl(String url) throws LinkNotFound, FileNotFoundException {
         links = cargarBiblioteca().getLinks();
         if(links==null)
@@ -100,13 +103,30 @@ public class LinkRepositoryImpl implements ILinkRepository{
     }
     public LinkDTO invalidarLinkPorReferencia(int ref) throws FileNotFoundException, LinkNotFound {
         biblioteca=cargarBiblioteca();
-        encontrarLinkPorReferencia(ref).setEstado(false);
+        link = encontrarLinkPorReferencia(ref);
+        link.setEstado(false);
         biblioteca.setLinks(links);
         guardarLinksJson(biblioteca);
         return encontrarLinkPorReferencia(ref);
     }
-
+    public LinkDTO incrementarLinkPorReferencia(int ref,String pwd) throws FileNotFoundException, LinkNotFound, LinkInvalid, LinkUnAuthorized {
+        biblioteca=cargarBiblioteca();
+        link = encontrarLinkPorReferencia(ref);
+        if(link.getEstado()){
+            if(link.autorizar(pwd)){
+                link.incrementar();
+                biblioteca.setLinks(links);
+                guardarLinksJson(biblioteca);
+                return encontrarLinkPorReferencia(ref);
+            }else {
+                throw new LinkUnAuthorized(String.valueOf(ref));
+            }
+        }else
+            throw new LinkInvalid(String.valueOf(ref));
+    }
     public BibliotecaLinksDTO getBiblioteca() throws FileNotFoundException {
         return cargarBiblioteca();
     }
+
+
 }

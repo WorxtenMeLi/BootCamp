@@ -1,8 +1,10 @@
 package com.meli.linktracker.services;
 
 import com.meli.linktracker.dtos.LinkDTO;
+import com.meli.linktracker.exceptions.LinkInvalid;
 import com.meli.linktracker.exceptions.LinkNotCreated;
 import com.meli.linktracker.exceptions.LinkNotFound;
+import com.meli.linktracker.exceptions.LinkUnAuthorized;
 import com.meli.linktracker.repositories.LinkRepositoryImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -34,5 +36,9 @@ public class LinkTrackerService {
 
     public LinkDTO invalidarLink(int ref) throws FileNotFoundException, LinkNotFound {
         return linkRepository.invalidarLinkPorReferencia(ref);
+    }
+
+    public LinkDTO redirectLinkByRef(int ref, String pwd) throws FileNotFoundException, LinkNotFound, LinkInvalid, LinkUnAuthorized {
+        return linkRepository.incrementarLinkPorReferencia(ref,pwd);
     }
 }

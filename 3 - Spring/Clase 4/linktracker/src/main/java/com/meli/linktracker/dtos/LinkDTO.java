@@ -11,9 +11,11 @@ public class LinkDTO {
     private String url;
     private int contador;
     private Boolean estado;
+    private String password;
     public LinkDTO(){
         contador=0;
         estado=true;
+        password="";
     }
     public LinkDTO(String link) {
         this.url = link;
@@ -25,5 +27,8 @@ public class LinkDTO {
     }
     public void setID(BibliotecaLinksDTO biblioteca){
         ref=biblioteca.getReferencia()+1;
+    }
+    public boolean autorizar(String pwd){
+        return password.equals(pwd);
     }
 }
