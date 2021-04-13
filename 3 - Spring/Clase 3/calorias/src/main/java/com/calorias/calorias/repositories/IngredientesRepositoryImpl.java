@@ -1,4 +1,5 @@
 package com.calorias.calorias.repositories;
+import com.calorias.calorias.exceptions.IngredienteNotFound;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.ResourceUtils;
@@ -10,7 +11,7 @@ import java.util.Optional;
 @Repository
 public class IngredientesRepositoryImpl implements IngredienteRepository{
     @Override
-    public int findCaloriesByIngredient(String ingredient) {
+    public int findCaloriesByIngredient(String ingredient) throws IngredienteNotFound {
         List<IngredienteDTO> ingredientes = loadDataBase();
         if(ingredientes==null)
             return 0;
@@ -21,6 +22,8 @@ public class IngredientesRepositoryImpl implements IngredienteRepository{
                     .findFirst();
             if (item.isPresent())
                 result = item.get();
+            else
+                throw new IngredienteNotFound(ingredient);
         return result.getCaloriaXGramo();
     }
     private List<IngredienteDTO> loadDataBase() {

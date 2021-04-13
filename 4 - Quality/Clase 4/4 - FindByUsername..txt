@@ -1,0 +1,23 @@
+sequenceDiagram
+    participant Actor
+    participant Controller
+    participant Service
+    participant Repository
+    Actor->>+Controller: getUser(@RequestParam String username)
+    activate Controller
+    Controller->>+Service: getUser(String username)
+    Service->>+Repository: loadJSON()
+    Repository-->>Service: list<UserDTO> users
+    Service->>Service: findIndexUserByUsername(user.getUsername())
+    Service->>Service: user[index] = user
+    alt found
+        Service-->>Controller: UserDTO user
+    else 
+       Service-->>-Controller: null
+    end
+    
+    alt found
+        Controller->>Actor: UserDTO user
+    else 
+       Controller-->>-Actor:  ErrorDTO error
+    end

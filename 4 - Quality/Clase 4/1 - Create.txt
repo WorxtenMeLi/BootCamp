@@ -1,0 +1,23 @@
+sequenceDiagram
+    participant Actor
+    participant Controller
+    participant Service
+    participant Repository
+    Actor->>+Controller: createUser(@RequestBody UsertDTO user)
+    activate Controller
+    Controller->>+Service: createUser(UsertDTO user)
+    Service->>+Repository: loadJSON()
+    Repository-->>Service: list<UserDTO> users
+    Service->>Service: users.add(user)
+    Service->>Repository: saveJSON()
+    alt created
+        Repository-->>Service : true
+    else 
+       Repository-->>-Service:  false
+    end
+    Service-->>-Controller: UserDTO user
+    alt created
+        Controller->>Actor: UserDTO user
+    else 
+       Controller-->>-Actor:  ErrorDTO error
+    end

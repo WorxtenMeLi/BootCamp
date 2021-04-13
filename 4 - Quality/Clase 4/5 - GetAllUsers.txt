@@ -1,0 +1,21 @@
+sequenceDiagram
+    participant Actor
+    participant Controller
+    participant Service
+    participant Repository
+    Actor->>+Controller: getUsers()
+    activate Controller
+    Controller->>+Service: getUsers()
+    Service->>+Repository: loadJSON()
+    Repository-->>Service: list<UserDTO> users
+    alt found
+        Service-->>Controller: list<UserDTO> users
+    else 
+       Service-->>-Controller: null
+    end
+    
+    alt found
+        Controller->>Actor: list<UserDTO> users
+    else 
+       Controller-->>-Actor:  ErrorDTO error
+    end

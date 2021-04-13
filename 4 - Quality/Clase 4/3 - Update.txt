@@ -1,0 +1,25 @@
+sequenceDiagram
+    participant Actor
+    participant Controller
+    participant Service
+    participant Repository
+    Actor->>+Controller: updateUser(@RequestBody UserDTO user)
+    activate Controller
+    Controller->>+Service: updateUser(UserDTO user)
+    Service->>+Repository: loadJSON()
+    Repository-->>Service: list<UserDTO> users
+    Service->>Service: findIndexUserById(user.getId())
+    Service->>Service: user[index] = user
+
+    Service->>Repository: saveJSON()
+    alt updated
+        Repository-->>Service : true
+    else 
+       Repository-->>-Service:  false
+    end
+    Service-->>-Controller: UserDTO user
+    alt updated
+        Controller->>Actor: UserDTO user
+    else 
+       Controller-->>-Actor:  ErrorDTO error
+    end

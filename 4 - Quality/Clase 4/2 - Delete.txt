@@ -1,0 +1,25 @@
+sequenceDiagram
+    participant Actor
+    participant Controller
+    participant Service
+    participant Repository
+    Actor->>+Controller: deleteUser(@RequestParam int userID)
+    activate Controller
+    Controller->>+Service: deleteUser(int userID)
+    Service->>+Repository: loadJSON()
+    Repository-->>Service: list<UserDTO> users
+    Service->>Service: findIndexUserById(int userID)
+    Service->>Service: user.remove(index)
+
+    Service->>Repository: saveJSON()
+    alt deleted
+        Repository-->>Service : true
+    else 
+       Repository-->>-Service:  false
+    end
+    Service-->>-Controller: list<UserDTO> users
+    alt deleted
+        Controller->>Actor: list<UserDTO> users
+    else 
+       Controller-->>-Actor:  ErrorDTO error
+    end

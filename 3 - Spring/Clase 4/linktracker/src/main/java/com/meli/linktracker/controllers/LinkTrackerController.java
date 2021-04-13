@@ -11,11 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
-
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -85,5 +82,4 @@ public class LinkTrackerController {
         errorDTO.setMensaje("El link " + errorException.getMessage()+" no ha sido autorizado, fallo de autenticacion.");
         return new ResponseEntity<>(errorDTO, HttpStatus.UNAUTHORIZED);
     }
-
 }

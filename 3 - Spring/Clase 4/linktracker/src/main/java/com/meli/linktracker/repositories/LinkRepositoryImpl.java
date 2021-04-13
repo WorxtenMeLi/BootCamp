@@ -127,6 +127,4 @@ public class LinkRepositoryImpl implements ILinkRepository{
     public BibliotecaLinksDTO getBiblioteca() throws FileNotFoundException {
         return cargarBiblioteca();
     }
-
-
 }

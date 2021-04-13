@@ -3,6 +3,7 @@ package com.calorias.calorias.services;
 import com.calorias.calorias.dto.IngredienteDTO;
 import com.calorias.calorias.dto.PlatoDTO;
 import com.calorias.calorias.dto.PlatoResponseDTO;
+import com.calorias.calorias.exceptions.IngredienteNotFound;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.calorias.calorias.repositories.IngredientesRepositoryImpl;
@@ -11,7 +12,7 @@ import com.calorias.calorias.repositories.IngredientesRepositoryImpl;
 public class CaloriasService {
     @Autowired
     private IngredientesRepositoryImpl repositorio;
-    public PlatoResponseDTO calcular(PlatoDTO plato){
+    public PlatoResponseDTO calcular(PlatoDTO plato) throws IngredienteNotFound {
         PlatoResponseDTO response = new PlatoResponseDTO(plato);
         calcularCaloriasXIngrediente(response);
         calcularCaloriasTotales(response);
@@ -26,7 +27,7 @@ public class CaloriasService {
         }
         platoResponse.setCaloriasTotales(sumaIngredientes);
     }
-    private void calcularCaloriasXIngrediente(PlatoResponseDTO platoResponse){
+    private void calcularCaloriasXIngrediente(PlatoResponseDTO platoResponse) throws IngredienteNotFound {
         int caloriaXGramo=0;
         for (IngredienteDTO ingrediente:platoResponse.getIngredientes()) {
             ingrediente.setCaloriaXGramo(repositorio.findCaloriesByIngredient(ingrediente.getNombre()));

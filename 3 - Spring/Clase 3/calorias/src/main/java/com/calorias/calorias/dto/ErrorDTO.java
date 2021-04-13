@@ -1,2 +1,9 @@
-package com.calorias.calorias.dto;public class ErrorDTO {
+package com.calorias.calorias.dto;
+
+import lombok.Data;
+
+@Data
+public class ErrorDTO {
+    private String nombre;
+    private String mensaje;
 }
